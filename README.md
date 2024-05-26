@@ -38,7 +38,7 @@ Point cloud to Mesh (2_smooth_surface.ipynb)
 
 
 ## Task 3
-unit test case to check and verify the solution from step 1.
+unit test case to check and verify the solution from step 1. (3_unit_test_with_transformation)
 1. **Transformation to point cloud**
 - Applied random rotation and translation transformation to input point cloud
 
