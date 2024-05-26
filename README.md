@@ -29,11 +29,14 @@ Re-orient the point cloud (1_Reorient_PC.ipynb)
 
 ## Task 2
 Point cloud to Mesh (2_smooth_surface.ipynb)
-1. **Normal estimation:**
+1. **Preprocessing of point cloud** (This preprocessing is tested in CloudCompare software and as the improvement is not observed in the mesh quality so this step is not included in the code file)
+- Noise removal
+- Point cloud density change 
+2. **Normal estimation:**
 - Normals are essential for mesh reconstruction tasks because they provide information about surface orientation, which is crucial for generating smooth surfaces.
 - orient the estimated normals consistently by aligning them with the tangent plane at each point.
-
-2. **Mesh formation using Poisson's reconstruction algorithm:**
+  
+3. **Mesh formation using Poisson's reconstruction algorithm:**
 - depth of the octree used in the Poisson reconstruction algorithm by taking multiple trials in CloudCompare software.
 
 
