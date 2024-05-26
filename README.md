@@ -29,7 +29,8 @@ Re-orient the point cloud (1_Reorient_PC.ipynb)
 
 ## Task 2
 Point cloud to Mesh (2_smooth_surface.ipynb)
-1. **Preprocessing of point cloud** (This preprocessing is tested in CloudCompare software and as the improvement is not observed in the mesh quality so this step is not included in the code file)
+1. **Preprocessing of point cloud**
+   (This preprocessing is tested in CloudCompare software and as the improvement is not observed in the mesh quality so this step is not included in the code file)
 - Noise removal
 - Point cloud density change 
 2. **Normal estimation:**
